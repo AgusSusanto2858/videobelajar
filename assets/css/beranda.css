@@ -11,10 +11,10 @@
 * {
     box-sizing: border-box;
     padding: 0;
+    margin: 0;
 }
 
 body {
-    margin: 0;
     background-color: #FFFDF3;
     font-family: "DM Sans", sans-serif;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-    padding: 20px 20px;
+    padding: 20px;
     background-color: #fff;
     border-bottom: 1px solid #ccc;
     display: flex;
@@ -38,10 +38,8 @@ body {
 
 .profile {
     display: flex;
-    justify-content: space-between;
-    margin-top: 2px;
     align-items: center;
-    margin-right: 4rem;
+    gap: 20px;
 }
 
 .profile li {
